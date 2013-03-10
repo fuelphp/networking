@@ -1,0 +1,25 @@
+{
+	"name": "fuelphp/networking",
+	"type": "library",
+	"description": "FuelPHP Networking package",
+	"keywords": ["Network", "SSH", "FTP", "SFTP"],
+	"homepage": "https://github.com/fuelphp/networking",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "FuelPHP Development Team",
+			"email": "team@fuelphp.com"
+		}
+	],
+	"require": {
+		"php": ">=5.3.3",
+		"phpseclib/phpseclib": "dev-master"
+	},
+	"require-dev": {
+		"mockery/mockery": "0.7.*"
+	},
+	"autoload": {
+		"psr-0": { "FuelPHP\\Networking": "src/" }
+	},
+	"minimum-stability": "dev"
+}
